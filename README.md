@@ -1,7 +1,12 @@
-# Research-Scraper-Agent
-Automated B2B lead generation, web scraping, and data enrichment pipeline to discover, verify, and format European &amp; Asian buyers for organic agricultural exports using Python and openpyxl.
-# Let's generate a README.md file and check the exact details of the repository workflow
-readme_content = """# Karakuta B2B Lead Generation & Outreach Pipeline
+Automated B2B lead generation, web scraping, and data enrichment pipeline to discover, verify, and format European & Asian buyers for organic agricultural exports using Python and openpyxl.
+
+Suggested GitHub Topics / Tags
+python data-pipeline openpyxl lead-generation web-scraping b2b-sales customs-data pandas
+
+
+
+
+# Karakuta B2B Lead Generation & Outreach Pipeline
 
 An automated data pipeline and web intelligence tool designed to discover, enrich, verify, and format high-value international B2B buyer leads (organic avocados and essential oils) for **Karakuta Fresh Produce**.
 
@@ -62,7 +67,7 @@ Create and Activate a Virtual Environment:
 Bash
 python -m venv venv
 # On Windows (PowerShell):
-.\\venv\\Scripts\\Activate.ps1
+.\venv\Scripts\Activate.ps1
 # On macOS/Linux:
 source venv/bin/activate
 Install Dependencies:
@@ -78,21 +83,16 @@ Bash
 python scripts/template_formatter.py
 📄 License & Confidentiality
 Internal tooling developed for agricultural trade intelligence and market expansion.
-"""
-
-with open("README.md", "w", encoding="utf-8") as f:
-f.write(readme_content)
-
-print("README.md created successfully. Length:", len(readme_content))
 
 
-```text?code_stdout&code_event_index=1
-README.md created successfully. Length: 3520
+---
 
-GitHub Repository Overview & Markdown Documentation
-
-Short Repository Description (For GitHub Header / "About" Section)
-Automated B2B lead generation, web scraping, and data enrichment pipeline to discover, verify, and format European & Asian buyers for organic agricultural exports using Python and openpyxl.
-
-Suggested GitHub Topics / Tags
-python data-pipeline openpyxl lead-generation web-scraping b2b-sales customs-data pandas
+### Suggested `requirements.txt` File
+Add a `requirements.txt` in your project folder with:
+```text
+pandas>=2.0.0
+openpyxl>=3.1.0
+xlrd>=2.0.1
+requests>=2.31.0
+beautifulsoup4>=4.12.0
+ddgs>=9.0.0
